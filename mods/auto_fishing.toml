@@ -4,7 +4,7 @@ name = "Auto Fishing"
 summary = "Client-side auto fishing from the vanilla bobber splash sound."
 description = """
 Auto Fishing detects the fishing bobber splash sound and automatically reels in, then casts again after a short delay.
-Press F8 to toggle automation and cast once with a fishing rod to start. Install this mod only on the client.
+Press F8 to toggle automation; the enabled state appears in local chat. Cast once with a fishing rod to start. Install this mod only on the client.
 Another player's bobber within 32 blocks can also trigger a reel while Auto Fishing is armed.
 """
 authors = ["Schonggg"]
@@ -31,3 +31,11 @@ game = "26.3"
 file = "auto_fishing-0.1.1.hmod"
 sha256 = "0a3e293eab9e4683a4fddda25b904e1bb09cb51d273f7c46b84c31a2d73708ab"
 changelog = "Made the mod client-only and replaced custom network payloads with local splash-sound detection."
+
+[[versions]]
+version = "0.1.2"
+published = "2026-11-20"
+game = "26.3"
+file = "auto_fishing-0.1.2.hmod"
+sha256 = "4ad99bd980813457dc24a2619628a8842a07204b90abcf7dbd45137cd3d4022f"
+changelog = "Added local chat confirmation when F8 enables or disables Auto Fishing."

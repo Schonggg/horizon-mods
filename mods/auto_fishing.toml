@@ -3,7 +3,7 @@ kind = "native-mod"
 name = "Auto Fishing"
 summary = "Client-side auto fishing from the vanilla bobber splash sound."
 description = """
-Auto Fishing detects the fishing bobber splash sound and automatically reels in, then casts again after a short delay.
+Auto Fishing detects the fishing bobber splash sound and automatically reels in, then recasts after a 5-tick delay (about 250 ms).
 Press F8 to toggle automation; the enabled state appears in local chat. Cast once with a fishing rod to start. Install this mod only on the client.
 Another player's bobber within 32 blocks can also trigger a reel while Auto Fishing is armed.
 """

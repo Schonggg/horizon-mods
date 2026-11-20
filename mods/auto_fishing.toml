@@ -39,3 +39,11 @@ game = "26.3"
 file = "auto_fishing-0.1.2.hmod"
 sha256 = "4ad99bd980813457dc24a2619628a8842a07204b90abcf7dbd45137cd3d4022f"
 changelog = "Added local chat confirmation when F8 enables or disables Auto Fishing."
+
+[[versions]]
+version = "0.1.3"
+published = "2026-11-20"
+game = "26.3"
+file = "auto_fishing-0.1.3.hmod"
+sha256 = "152807273a57b7a77cd1b5b571206fede81c8ad9113380c1ee2dada801028ec2"
+changelog = "Increased the delay after reeling to 5 ticks (about 250 ms) before recasting."

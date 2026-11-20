@@ -1,0 +1,24 @@
+id = "auto_fishing"
+kind = "native-mod"
+name = "Auto Fishing"
+summary = "Automatically reels in on a bite and recasts after retrieval."
+description = """
+Auto Fishing detects a fishing bobber's bite and automatically reels it in, then casts again after a short delay.
+Press F8 to toggle automation and cast once with a fishing rod to start.
+"""
+authors = ["Schonggg"]
+owners = ["Schonggg"]
+owner_ids = [112318347]
+license = "MIT"
+source = "https://github.com/Schonggg/Horizon_Mod/tree/main/auto-fishing"
+icon = "icons/auto_fishing.png"
+categories = ["utility"]
+tags = ["fishing", "auto-fishing", "automation"]
+
+[[versions]]
+version = "0.1.0"
+published = "2026-11-20"
+game = "26.3"
+file = "auto_fishing-0.1.0.hmod"
+sha256 = "99932ed61cf09104879e6a48f2cf83900be6918ed184d36b86f519d552c57571"
+changelog = "Ported to the native Horizon SDK (API 0.2); automatic bite response and recasting are unchanged."
